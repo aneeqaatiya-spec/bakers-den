@@ -1,0 +1,110 @@
+*{
+    text-decoration: none;
+    padding:0;
+    margin:0;
+}
+.hero{
+    height:100vh;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.logo{
+    color: white;
+    font-size: 45px;
+    margin:20px 80px;
+    font-family: serif;
+}
+
+.navbar {
+  
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  margin-right: 25%;
+justify-content: space-between;
+margin-top: 40px;
+font-size: largeR;
+}
+
+a{
+    color: white;
+    font-size: 25px;
+}
+#home{
+    color: white;
+}
+#About{
+    color: white;
+    
+}
+#OurOffer{
+    color: white;
+}
+#Gallery{
+    color: white;
+}
+#Blog{
+    color: white;
+}
+#Contact{
+    color: white;
+}
+
+
+.hero-content{
+    text-align: center;
+    height: 50vh;
+    margin-top: 230px;
+}
+.tagline{
+    color: white;
+    font-size: 25px;
+    
+    
+}
+.hero-content h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 90px;
+    /* height: 50vh; */
+}
+.description{
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.hero-content button
+{
+     padding: 20px;
+     font-size: 20px;
+     margin-top: 2px;
+}
+#button1{
+    
+    background-color: #57401e;
+    border: none;
+    color: white;
+}
+#button2{
+
+background-color: transparent;
+color: white;
+}
+     
+
+    
+
+
+
+
